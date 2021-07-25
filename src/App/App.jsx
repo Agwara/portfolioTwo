@@ -7,7 +7,6 @@ import {
 
 import ContactMe from "../pages/ContactMe/ContactMe"
 import Home from "../pages/Home/Home";
-import MyCV from "../pages/MyCV/MyCV";
 import Offer from "../pages/Offer/Offer";
 import Portfolio from "../pages/Portfolio/Portfolio";
 import PageNotFound from "../pages/PageNotFound/PageNotFound";
@@ -25,8 +24,6 @@ const App = () => {
           <Route exact path="/" component={Home} />
 
           <Route exact path="/contact-me" component={ContactMe} />
-
-          <Route exact path="/my-cv" component={MyCV} />
 
           <Route exact path="/offer" component={Offer} />
 

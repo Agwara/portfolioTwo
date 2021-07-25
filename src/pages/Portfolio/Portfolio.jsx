@@ -59,8 +59,10 @@ const Portfolio = (props) => {
                 From March 2020 to August 2020, I was an Intern for a company in Indian. The internship was
                 was done remotely. This gave me a lot of experience and hindsight on how a proper team collaboration,
                 and project management process should look like. 
-                See <Link to="/my-cv" className="project-container--link">my CV</Link> for more details.
+                See <a className="project-container--link" href="/AgwaraNnaemeka.pdf" target="_blank">my CV</a> for more details.
               </p>
+
+               
             </div>
           </div>
         </li>

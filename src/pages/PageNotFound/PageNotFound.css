@@ -1,0 +1,45 @@
+.pagenot-found {
+  background-color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pagenot-found__number {
+  font-size: 120px;
+  font-weight: 600;
+}
+
+.pagenot-found__text {
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.pagenot-found__btn {
+  background-color: #BF4E4E;
+  padding: 15px 20px;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 600px) { 
+  .pagenot-found__number {
+    font-size: 80px;
+  }
+
+  .pagenot-found__text {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .pagenot-found__btn {
+    font-size: 12px;
+    padding: 12px 10px;
+  }
+}

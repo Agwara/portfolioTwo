@@ -38,11 +38,11 @@ const MobileSideNav = (props) => {
     setOpenDropDown(false)
   }
 
-  const goToCV = (url) => {
-    props.setPageUrl(url);
-    history.push(url);
-    setOpenDropDown(false)
-  }
+  // const goToCV = (url) => {
+  //   props.setPageUrl(url);
+  //   history.push(url);
+  //   setOpenDropDown(false)
+  // }
 
   return (
     <div className={props.pageUrl === "/" ? "mobile-nav__trans" : "mobile-nav__solid"}>
@@ -85,8 +85,13 @@ const MobileSideNav = (props) => {
             <p>Contact Me</p>
           </li>
 
-          <li onClick={() => goToCV("/my-cv")}>
-            <p>My CV</p>
+          <li>
+            <a className="mobile-nav__cv-link"
+              href="/AgwaraNnaemeka.pdf" 
+              target="_blank"
+            >
+              View CV
+            </a>
           </li>
         </ul>
       </div>

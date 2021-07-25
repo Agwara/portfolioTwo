@@ -67,9 +67,13 @@
   padding-top: 20px;
 }
 
-.mobile-nav__list li p {
+.mobile-nav__list li p, .mobile-nav__cv-link {
   font-size: 16px;
   color: white;
   font-weight: 400;
   text-transform: uppercase;
+}
+
+.mobile-nav__cv-link {
+  text-decoration: none;
 }
