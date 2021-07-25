@@ -1,0 +1,63 @@
+.router-container {
+  height: 100vh;
+  width: 100vw;
+
+  background-image: url("/src/assets/background.jpeg");
+  background-size: cover;
+  background-position: top;
+
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  /* grid-template-rows: 100vh; */
+
+  overflow-y: scroll;
+}
+
+.desktop-view-page {
+  grid-column: 2/3;
+  overflow-y: scroll;
+}
+
+.side-nav-position {
+  grid-column: 1/2;
+  overflow-y: scroll;
+}
+
+@media screen and (max-width: 900px) {
+  .router-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content 3fr;
+  }
+
+  .side-nav-position {
+    grid-column: 1/-1;
+    grid-row: 1/2;
+  }
+
+  .desktop-view-page {
+    grid-column: 1/-1;
+    grid-row: 2/3;
+    overflow-y: initial;
+  }
+}
+
+/* .router-container::-webkit-scrollbar  */
+
+.desktop-view-page::-webkit-scrollbar, 
+.side-nav-position::-webkit-scrollbar, 
+.desktop-nav::-webkit-scrollbar,
+.router-container::-webkit-scrollbar,
+.portfolio::-webkit-scrollbar,
+.offer::-webkit-scrollbar {
+  display: none;
+}
+
+.desktop-view-page, 
+.side-nav-position, 
+.desktop-nav,
+.router-container,
+.portfolio,
+.offer {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: 0px;  /* Firefox */
+}

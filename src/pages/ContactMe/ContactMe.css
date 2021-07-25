@@ -1,0 +1,35 @@
+.contact-me {
+  background-color: #fff;
+  
+  height: inherit;
+  padding: 20px 40px;
+}
+
+.contact__links {
+  margin-top: 10px;
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact__p-text {
+  line-height: 24px;
+  font-size: 18px;
+  font-family: Roboto,Helvetica,sans-serif;
+  font-weight: 500;
+  color: #555;
+}
+
+.contact__links--red {
+  color: #BB1E1E;
+  font-size: 18px;
+  font-family: Roboto,Helvetica,sans-serif;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 500px) {
+  .contact-me {
+    padding: 20px;
+  }
+}

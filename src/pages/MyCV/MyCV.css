@@ -1,0 +1,10 @@
+.my-cv {
+  background-color: #fff;
+}
+
+.my-cv__link {
+  display: inline-block;
+  margin: 30px;
+  font-size: 20px;
+  font-weight: 500;
+}
