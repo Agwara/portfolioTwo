@@ -56,7 +56,7 @@ const Portfolio = (props) => {
           <div className="portfolio__timeline--content">
             <div className="project__description">
               <p onClick={() => goToPage("/my-cv")}>
-                From March 2020 to August 2020, I was an Intern for a company in Indian. The internship was
+                From March 2020 to August 2020, I was an Intern for a company in India. The internship was
                 was done remotely. This gave me a lot of experience and hindsight on how a proper team collaboration,
                 and project management process should look like. 
                 See <a className="project-container--link" href="/AgwaraNnaemeka.pdf" target="_blank">my CV</a> for more details.
