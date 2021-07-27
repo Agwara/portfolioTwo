@@ -4,6 +4,7 @@ import {Link} from "react-router-dom";
 import { setPageUrl } from "../../actions/pageUrl";
 import DashBoardProject from "../../component/DashBoardProject/DashBoardProject";
 import LandingPageProject from "../../component/LadingPageProject/LandingPageProject";
+import FastFoodProject from "../../component/FastFoodProject/FastFoodProject";
 
 import "./Portfolio.css";
 
@@ -31,6 +32,14 @@ const Portfolio = (props) => {
                 Contact me</Link>. I will answer you in ~ 24 hours.
               </p>
             </div>
+          </div>
+        </li>
+
+        <li className="portforlio__timeline--element">
+          <div className="timeline__indicator"></div>
+          <div className="portfolio__timeline">2021</div>
+          <div className="portfolio__timeline--content">
+            <FastFoodProject />
           </div>
         </li>
 
