@@ -18,7 +18,7 @@ const Home = (props) => {
     <div className="home desktop-view-page">
       <div className="home__intro">
         <h1>Hi, I'm Nnaemeka,</h1>
-        <p>a freelance software engineer specialized <br/>in <strong>frontend</strong>.</p>
+        <p>a software engineer specialized <br/>in <strong>frontend</strong>.</p>
       </div>
 
       <div className="home__links">

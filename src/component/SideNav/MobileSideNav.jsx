@@ -57,7 +57,7 @@ const MobileSideNav = (props) => {
               className="mobile-nav--img"
             />
             <h2>AGWARA NNAEMEKA</h2>
-            <h3>FRONT-END SOFTWARE ENGINEER</h3>
+            <h3>FRONT-END ENGINEER</h3>
           </div> : ""
       }
 

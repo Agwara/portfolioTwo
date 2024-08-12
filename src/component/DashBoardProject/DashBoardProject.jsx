@@ -7,7 +7,7 @@ const DashBoardProject = () => {
   return (
     <div className="project-container">
       <div className="project-container__description">
-        <h1>Dashboard Project</h1>
+        <h1>Dashboard Project(Personal Project)</h1>
         <p className="project-container__intro">
           A simple and effective dashboard that can be integrated to any web application.
         </p>

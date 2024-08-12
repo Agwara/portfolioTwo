@@ -55,7 +55,7 @@ const DesktopSideNav = (props) => {
           className="desktop-nav--img"
         />
         <h2>AGWARA NNAEMEKA</h2>
-        <h3>FRONT-END SOFTWARE ENGINEER</h3>
+        <h3>FRONT-END ENGINEER</h3>
       </div>
 
       <ul className="desktop-nav__list">

@@ -8,8 +8,8 @@ const Offer = () => {
     <div className="offer desktop-page-view">
       <h1 className="offer__heading">My Offer</h1>
       <p className="offer__p-text"><strong>A 
-        <span className="span-red"> front-end software engineer</span> with over 
-        <span className="span-red"> 2 years of experience</span>.</strong>
+        <span className="span-red"> front-end engineer</span> with over 
+        <span className="span-red"> 5 years of experience</span>.</strong>
       </p>
 
       <p className="offer__p-text">

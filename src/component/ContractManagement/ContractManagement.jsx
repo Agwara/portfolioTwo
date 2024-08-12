@@ -1,21 +1,22 @@
 import React from "react";
 import {Link} from "react-router-dom"
 
-import landingPage from "../../assets/landingPage.PNG";
+import dashboardProject from "../../assets/contract.png"
 
-const LandingPageProject = () => {
+const ContractManagement = () => {
   return (
     <div className="project-container">
       <div className="project-container__description">
-        <h1>Landing Page(Personal Project)</h1>
+        <h1>Pericius Tecnologies</h1>
         <p className="project-container__intro">
-          A highly responsive Landing Page.
+          Contract Management System
         </p>
 
         <p className="project-container__details">
-          This is just a mini project to show case my HTML and CSS skills.
+        This tool helps our clients in managing arrangements between various partners, agents and other 
+        contractual partners on the terms and conditions on providing services/products in partnership
           <Link 
-            to={{pathname: "https://blissful-noyce-e2cf51.netlify.app/"}} target={"_blank"} 
+            to={{pathname: "https://www.pericius.com/products"}} target={"_blank"} 
             className="project-container--link"
           >
             <br/>View Online
@@ -24,12 +25,12 @@ const LandingPageProject = () => {
       </div>
 
       <Link
-        to={{pathname: "https://blissful-noyce-e2cf51.netlify.app/"}} target={"_blank"} 
+        to={{pathname: "https://www.pericius.com/products"}} target={"_blank"} 
         className="project-container__image"
       >
         <img
-          alt="Landing Page"
-          src={landingPage}
+          alt="Dashboard Project"
+          src={dashboardProject}
           height="100%"
           width="100%"
         />
@@ -39,6 +40,7 @@ const LandingPageProject = () => {
         <h3>Technologies</h3>
 
         <div className="technologies--list">
+          <p>React</p>
           <p>HTMl</p>
           <p>CSS</p>
         </div>
@@ -47,4 +49,4 @@ const LandingPageProject = () => {
   )
 }
 
-export default LandingPageProject;
+export default ContractManagement;

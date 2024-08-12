@@ -6,7 +6,7 @@ const MyCV = () => {
 
   return (
     <div className="my-cv">
-      <a href="/AgwaraNnaemeka.pdf" target="_blank" className="my-cv__link">View CV</a>
+      <a href="/Agwara-NnaemekaCV.pdf" target="_blank" className="my-cv__link">View CV</a>
     </div>
   );
 }
