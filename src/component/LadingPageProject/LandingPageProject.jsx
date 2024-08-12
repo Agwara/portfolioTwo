@@ -15,7 +15,7 @@ const LandingPageProject = () => {
         <p className="project-container__details">
           This is just a mini project to show case my HTML and CSS skills.
           <Link 
-            to={{pathname: "https://blissful-noyce-e2cf51.netlify.app/"}} target={"_blank"} 
+            to={{pathname: "https://landing-page-e5w2ie5he-agwaras-projects.vercel.app/"}} target={"_blank"} 
             className="project-container--link"
           >
             <br/>View Online
@@ -24,7 +24,7 @@ const LandingPageProject = () => {
       </div>
 
       <Link
-        to={{pathname: "https://blissful-noyce-e2cf51.netlify.app/"}} target={"_blank"} 
+        to={{pathname: "https://landing-page-e5w2ie5he-agwaras-projects.vercel.app/"}} target={"_blank"} 
         className="project-container__image"
       >
         <img
